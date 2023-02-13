@@ -1,0 +1,49 @@
+.card-container{
+    display: flex;
+    flex-direction:column;
+    width:230px ;
+margin-bottom: 20px;
+cursor: pointer;
+transition: all 0.3s;
+margin-right: 2px;
+
+ @media screen and (max-width: 500px){
+    margin-bottom: 50px;
+ }
+
+
+
+
+    .card-top_container{
+        width:250px ;
+
+        img{
+       width: 220px;
+       height: 350px;
+
+        }
+        &:hover{
+            transform:scale(1.1);
+            transition: all 0.3s;
+            
+           }
+    }
+
+    .card-bottom_container{
+        margin-top: 12px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   color: white;
+   font-family: 'Raleway', sans-serif;
+
+   h4{
+    padding-bottom: 5px;
+    font-size:20px; 
+       font-weight: 300;
+   }
+    }
+
+    
+}

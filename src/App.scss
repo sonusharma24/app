@@ -1,9 +1,18 @@
+@import "./common/colors.scss";
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
-.App{
-   
-    color: white;
-    background-color: black;
+
+body{
+    background-color: $primary-color;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 40px;
 }
